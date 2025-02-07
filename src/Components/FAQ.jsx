@@ -2,14 +2,14 @@ import { faqItems } from "../contant";
 
 const FAQ = () => {
   return (
-    <div className="bg-gray-50 paddingtop paddingbottom">
+    <div className=" paddingtop paddingbottom">
       <div className="wrapper paddingbottom">
         {/* Heading Section */}
         <div className="text-center mb-8">
           <h3 data-aos="fade-up" className="main-heading text-gray-900 mb-4 ">
             {"FAQS"}
           </h3>
-          <p data-aos="fade-up" className="text-lg text-gray-600">
+          <p data-aos="fade-up" className="text-lg text-gray-100">
             Find answers to common questions about our services.
           </p>
         </div>

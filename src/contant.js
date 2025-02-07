@@ -22,10 +22,6 @@ import client2 from "./assets/client-2.png";
 import client3 from "./assets/client-3.png";
 import client4 from "./assets/client-4.png";
 
-import service1 from "./assets/service1.png";
-import service3 from "./assets/service3.png";
-import service6 from "./assets/service6.png";
-
 // porfolio image
 // Import all images at the top (Web Development)
 import FiveGHomesImg from "./assets/web-development-portfolio/5ghomes.png";
@@ -67,14 +63,14 @@ import arvr from "./assets/service-icons/arvr.jpg";
 export const clientDetails = {
   phone: "+91-8591331353",
   whatsappbox: "8591331353",
-  email: "support@elixirai.co",
+  email: "support@Vantus AI Solutions LLP.co",
   address: "Malad West, Mumbai, Maharashtra – 400095, India",
 };
 
 export const navItems = [
   {
     label: "[ LET'S TALK AI ]",
-    path: "/services/artificial-intelligence",
+    path: "/about-us",
     extraClasses: "text-white hover:text-blue-400",
   },
   { label: "Home", path: "/", extraClasses: "hover:text-blue-400 " },
@@ -471,7 +467,7 @@ export const bestServices = [
     icon: appDevIcon,
     img: appDevCardImg,
     description:
-      "AppGalaxy, a subsidiary of ELIXIRAI, specializes in premium website and app development services. We work across platforms to deliver seamless digital experiences that scale new customer acquisition and retention for commerce brands.",
+      "AppGalaxy, a subsidiary of Vantus AI Solutions LLP, specializes in premium website and app development services. We work across platforms to deliver seamless digital experiences that scale new customer acquisition and retention for commerce brands.",
     link: "/services/web-app-development",
   },
 
@@ -512,7 +508,7 @@ export const testimonials = [
     name: "Rohan Sharma",
     title: "CEO of ShopSmart Pvt Ltd",
     description:
-      "ELIXIRAI helped us build a seamless e-commerce platform with top-notch web development. Their team delivered a responsive website, ensuring an excellent user experience across all devices. The integration of real-time inventory management and AI-powered recommendations has significantly improved our customer engagement and sales.",
+      "Vantus AI Solutions LLP delivered a robust full-stack web development solution for our e-commerce platform. Their expertise in responsive design, real-time inventory management, and seamless payment integration significantly enhanced our customer experience and business operations.",
   },
   {
     id: 2,
@@ -520,47 +516,47 @@ export const testimonials = [
     name: "Priya Bansal",
     title: "Managing Director of SafeFunds Financial Group",
     description:
-      "For our mobile application, we turned to ELIXIRAI for their expertise in app development. They created a user-friendly app for both Android and iOS that seamlessly integrates with our blockchain solutions. The app’s intuitive design and smooth functionality enhanced our client experience and improved service efficiency.",
+      "The mobile app developed by Vantus AI Solutions LLP transformed our financial services. Their team built a secure, high-performance application for both Android and iOS, ensuring smooth blockchain integration and an intuitive user experience.",
   },
   {
     id: 3,
     img: "",
     name: "Vikram Rao",
-    title: "Operations Manager at FreshMart Retail Solutions",
+    title: "Founder at PlaySphere Gaming",
     description:
-      "We sought AI-powered solutions to enhance our retail analytics, and ELIXIRAI provided a comprehensive platform that used artificial intelligence to analyze customer behavior, optimize inventory, and predict trends. Their platform helped us make data-driven decisions and personalize our marketing strategies for better customer engagement.",
+      "We partnered with Vantus AI Solutions LLP for game development, and they exceeded our expectations. Their team created an immersive, high-performance game with stunning graphics, seamless multiplayer features, and AI-driven mechanics that keep players engaged.",
   },
   {
     id: 4,
     img: "",
     name: "Dr. Meera Nair",
-    title: "Co-Founder of HealthNet Solutions",
+    title: "Customer Experience Manager at ChatFlow Solutions",
     description:
-      "ELIXIRAI’s expertise in UI/UX design made a significant impact on our healthcare platform. They revamped our user interface, ensuring a clean and intuitive design that’s easy for our patients and clients to navigate. The new design has enhanced user engagement and significantly improved our platform's overall functionality.",
+      "Vantus AI Solutions LLP built an AI-powered chatbot for our customer support, significantly improving response times and user satisfaction. The chatbot’s natural language processing capabilities and seamless integration with our systems have automated interactions efficiently.",
   },
   {
     id: 5,
     img: "",
     name: "Anjali Deshmukh",
-    title: "Sales Director at Elite Properties Pvt Ltd",
+    title: "Head of Data Strategy at Insight Analytics",
     description:
-      "To elevate our real estate business, ELIXIRAI developed an innovative mobile app that offers virtual property tours, enhancing the buyer's experience. The app’s design and functionality were crafted with user-centric principles in mind, giving our clients an immersive experience from the convenience of their homes.",
+      "With Vantus AI Solutions LLP’s expertise in data analytics, we now have an advanced platform that leverages AI to process vast amounts of data, providing predictive insights and helping us make informed business decisions.",
   },
   {
     id: 6,
     img: "",
     name: "Ajay Patil",
-    title: "CTO of TechServe Solutions",
+    title: "CTO of SecureChain Technologies",
     description:
-      "When we needed a complete redesign of our website, ELIXIRAI delivered a sleek, responsive platform that reflects our growing tech company. The new site not only showcases our products but also integrates advanced AI solutions, providing personalized user experiences and ensuring seamless navigation across devices.",
+      "Blockchain development by Vantus AI Solutions LLP has strengthened our data security and transaction transparency. Their expertise in smart contracts and decentralized applications has given us a competitive edge in the fintech industry.",
   },
   {
     id: 7,
     img: "",
     name: "Sunil Kapoor",
-    title: "Operations Manager at SteelTech Manufacturing",
+    title: "Operations Head at VisionTech Innovations",
     description:
-      "ELIXIRAI revolutionized our internal operations with their web and app development expertise, creating a solution that integrates seamlessly with our existing processes. The user-friendly interface and AI-powered automation have dramatically increased productivity, reducing errors and saving us valuable time and resources.",
+      "Vantus AI Solutions LLP’s VR and AR development services helped us create a cutting-edge training simulation. The immersive experience enhances learning and engagement, making complex training processes more efficient and interactive.",
   },
 ];
 

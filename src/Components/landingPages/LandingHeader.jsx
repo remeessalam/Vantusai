@@ -56,55 +56,39 @@ const LandingHeader = () => {
   }, []);
 
   return (
-    <div className="max-w-screen overflow-hidden">
+    <div className="max-w-screen overflow-x-hidden">
       <header
-        className={`fixed !max-w-screen overflow-hidden top-0 left-0 right-0 z-50 transition-colors duration-300 ${
+        className={`fixed !max-w-screen  top-0 left-0 right-0 z-50 transition-colors duration-300 ${
           isScrolled
-            ? "bg-white/70 bg-opacity-50  backdrop-blur-sm"
-            : "bg-transparent"
+            ? "bg-black/70 bg-opacity-50  backdrop-blur-sm"
+            : "bg-black/70 bg-opacity-50  backdrop-blur-sm"
         }`}
       >
         <div className="wrapper ">
-          <div className="hidden md:flex text-black justify-end gap-6 py-2">
-            <Link
-              to={`mailto:${clientDetails.email}`}
-              className="flex items-center gap-2"
-            >
-              <CiMail className="w-5 h-5" /> {clientDetails.email}
-            </Link>
-            |
-            <Link
-              to={`tel:${clientDetails.phone}`}
-              className="flex items-center gap-2"
-            >
-              <FaPhoneAlt className="w-4 h-4" />
-              {clientDetails.phone}
-            </Link>
-          </div>
-          <div className="flex justify-between items-center pt-5 md:pt-0 pb-8">
+          <div className="flex justify-between items-center py-4">
             <div className="flex-shrink-0">
               <Link smooth={true} to="banner" className="cursor-pointer">
                 <img
                   src={logoImg}
-                  className="w-[10rem] sm:w-[13rem]"
+                  className="w-[6rem] sm:w-[8rem]"
                   alt="logo"
                 />
               </Link>
             </div>
-            <nav className="hidden md:flex items-center space-x-8 text-black">
+            <nav className="hidden md:flex items-center space-x-8 text-white">
               {options.map((option) =>
                 option.name === "Home" ? (
                   <CustomLink
                     key={option.path}
                     to={`/`}
-                    className="text-black text-sm"
+                    className="text-white text-sm"
                   >
                     Home
                   </CustomLink>
                 ) : (
                   <Link
                     to={option.path}
-                    className="text-black text-sm"
+                    className="text-white text-sm"
                     key={option.path}
                     spy={true}
                     smooth={true}
@@ -120,7 +104,7 @@ const LandingHeader = () => {
             </nav>
             {/* Mobile menu button */}
             <div className="md:hidden">
-              <button className="text-black p-2" onClick={toggleDrawer}>
+              <button className="text-white p-2" onClick={toggleDrawer}>
                 <svg
                   className="h-6 w-6"
                   fill="none"
@@ -140,7 +124,7 @@ const LandingHeader = () => {
           open={isOpen}
           onClose={toggleDrawer}
           direction="right"
-          className="py-4 px-10 z-10"
+          className="py-4 px-10 z-30"
         >
           <div className="mb-6 flex items-center justify-end pr-[.7rem] py-[.4rem]">
             <button
@@ -153,13 +137,17 @@ const LandingHeader = () => {
           <div className="flex flex-col gap-6">
             {options.map((option) =>
               option.name === "Home" ? (
-                <CustomLink key={option.path} to={`/`} className="link text-sm">
+                <CustomLink
+                  key={option.path}
+                  to={`/`}
+                  className="link text-sm text-black"
+                >
                   Home
                 </CustomLink>
               ) : (
                 <Link
                   to={option.path}
-                  className="link text-sm"
+                  className="link text-sm text-black"
                   key={option.path}
                   spy={true}
                   smooth={true}

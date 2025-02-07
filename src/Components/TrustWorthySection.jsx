@@ -11,8 +11,8 @@ const TrustWorthySection = () => {
           How we Empower Businesses?
         </h2>
         <p data-aos="fade-up" className="description max-w-6xl mx-auto mt-2">
-          With a dedicated team and a results-driven approach, ELIXIRAI is
-          committed to delivering
+          With a dedicated team and a results-driven approach, Vantus AI
+          Solutions LLP is committed to delivering
           <br /> impactful, high-quality tech solutions that drive business
           growth and innovation.
         </p>

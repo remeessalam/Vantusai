@@ -46,7 +46,7 @@ const OurApproach = () => {
   ];
 
   return (
-    <section className="paddingtop paddingbottom bg-gray-50">
+    <section className="paddingtop paddingbottom">
       <div className="wrapper paddingtop">
         <div className="text-center mb-12">
           <h2 data-aos="fade-up" className="main-heading text-gray-900 mb-4">
@@ -54,7 +54,7 @@ const OurApproach = () => {
           </h2>
           <p
             data-aos="fade-up"
-            className="text-xl text-gray-600 max-w-3xl mx-auto"
+            className="text-xl text-gray-100 max-w-3xl mx-auto"
           >
             We believe the best digital solutions come from strategic thinking
             and collaborative execution.

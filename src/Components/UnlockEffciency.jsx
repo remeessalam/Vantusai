@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const UnlockEfficiency = () => {
   return (
-    <section className="paddingtop paddingbottom text-black bg-gradient-to-r from-primary/30 to-secondary/30">
+    <section className="paddingtop paddingbottom text-black bg-gradient-to-r from-primary/30 to-blue-900">
       <div
         data-aos="fade-up"
         className="wrapper flex flex-col text-white items-center gap-5 text-center"

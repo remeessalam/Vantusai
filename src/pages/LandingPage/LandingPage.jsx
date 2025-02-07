@@ -133,7 +133,7 @@ export const LandingPage = ({ page }) => {
                 : ""}
             </h1> */}
               {isWebDevelopment ? (
-                <h1 className="main-heading text-black leading-tight">
+                <h1 className="main-heading !text-black leading-tight">
                   Building Websites That Leverage
                   <span className="text-primary"> AI </span>
                   to Define Your Brand&apos;s Digital Presence
@@ -225,7 +225,7 @@ export const LandingPage = ({ page }) => {
         {/* <Faqs /> */}
 
         <UnlockEfficiency />
-        <div className=" bg-white paddingtop paddingbottom px-4 sm:px-6 lg:px-8">
+        <div className="  paddingtop paddingbottom px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
             <h1
               data-aos="fade-up"

@@ -33,7 +33,7 @@ const RequirementForm = () => {
     // Construct the request payload
     const payload = {
       to: clientDetails.email,
-      name: "Elixirai",
+      name: "Vantus AI Solutions LLP",
       subject: `New Requirement from ${data.name}`,
       body: emailBody,
     };
@@ -69,10 +69,10 @@ const RequirementForm = () => {
 
   return (
     <div className="bg-white p-4 rounded-2xl shadow-xl w-full">
-      <h1 className="text-2xl font-semibold text-center">
+      <h1 className="text-2xl text-black font-semibold text-center">
         Share your Requirements
       </h1>
-      <p className="text-center py-2">
+      <p className="text-center py-2 text-black ">
         To help our experts understand your business objectives and <br />
         create your customized plan.
       </p>

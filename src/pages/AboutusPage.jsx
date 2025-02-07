@@ -16,19 +16,19 @@ const AboutusPage = () => {
     <div>
       <PageBanner title={"About Us"} />
       <section className="paddingtop paddingbottom wrapper grid gap-10 lg:grid-cols-2">
-        <div className="flex flex-col text-black">
+        <div className="flex flex-col text-white">
           <h1 data-aos="fade-right" className="main-heading">
             Innovating the Future with Advanced AI and Digital Solutions
           </h1>
           <p data-aos="fade-right" className="description mt-4">
-            At ELIXIRAI, we are a team of passionate professionals dedicated to
-            delivering innovative digital solutions that help businesses grow
-            and succeed in an increasingly digital world. Founded with the goal
-            of bridging the gap between great ideas and effective technology, we
-            specialize in creating custom web development, mobile apps,
-            AI-driven solutions, and thoughtful UI/UX design. We believe in the
-            power of technology to shape the future of business, and we’re here
-            to help you make the most of it.
+            At Vantus AI Solutions LLP, we are a team of passionate
+            professionals dedicated to delivering innovative digital solutions
+            that help businesses grow and succeed in an increasingly digital
+            world. Founded with the goal of bridging the gap between great ideas
+            and effective technology, we specialize in creating custom web
+            development, mobile apps, AI-driven solutions, and thoughtful UI/UX
+            design. We believe in the power of technology to shape the future of
+            business, and we’re here to help you make the most of it.
             <br />
             <br /> We understand that every project is unique, and that’s why we
             approach each one with care, creativity, and technical expertise.

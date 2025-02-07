@@ -49,9 +49,7 @@ const LandingServices = ({ page }) => {
                     <h5 className="font-semibold text-2xl font-raleway transition-colors duration-300 text-primary">
                       {item.title}
                     </h5>
-                    <p className="desc text-primarytextcolor">
-                      {item.description}
-                    </p>
+                    <p className="desc text-black">{item.description}</p>
                   </div>
                 </div>
               </div>

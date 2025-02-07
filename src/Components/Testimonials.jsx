@@ -63,7 +63,7 @@ const Testimonials = () => {
           data-aos="fade-up"
           className="wrapper mb-[3rem] text-white text-center"
         >
-          <p className="uppercase z-10 text-primary font-medium relative mb-2 gradient-text">
+          <p className="uppercase z-10 text-white font-medium relative mb-2 gradient-text">
             testimonials
           </p>
           <h1 className="main-heading z-10 relative text-center capitalize">

@@ -41,7 +41,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/" className="text-white text-2xl font-bold">
-              <img src={logo} alt="logo" className="w-[10rem] sm:w-[8rem]" />
+              <img src={logo} alt="logo" className="w-[6rem] sm:w-[8rem]" />
             </Link>
           </div>
 
@@ -66,7 +66,7 @@ const Header = () => {
 
           {/* Mobile menu button */}
           <div className="md:hidden">
-            <button className="text-black p-2" onClick={toggleDrawer}>
+            <button className="text-white p-2" onClick={toggleDrawer}>
               <svg
                 className="h-6 w-6"
                 fill="none"
@@ -107,7 +107,7 @@ const Header = () => {
                   : path !== "/contact-us"
                   ? ""
                   : ""
-              } !capitalize`}
+              } text-black !capitalize`}
               to={path}
             >
               {label}

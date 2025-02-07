@@ -1,26 +1,25 @@
+import { Link } from "react-router-dom";
 import PageBanner from "../Components/PageBanner";
-import blogsdummy from "../assets/blogsdummy.jpg";
+import blog1 from "../assets/blogs/blog1.webp";
+import blog2 from "../assets/blogs/blog2.webp";
 const blogData = [
   {
     id: 1,
-    img: blogsdummy,
-    title: "Understanding Web Development",
+    img: blog1,
+    title:
+      "Welcome to VANTUS AI SOLUTIONS LLP: Empowering Tomorrow with Intelligent Innovation",
     description:
-      "A deep dive into the essentials of web development and why it is crucial for building modern websites.",
+      "Discover how VANTUS AI is revolutionizing industries with cutting-edge AI solutions, driving innovation, and shaping the future of technology.",
+    link: "https://vantusai.blogspot.com/2024/11/VantusAISolutionLLP.html",
   },
   {
     id: 2,
-    img: blogsdummy,
-    title: "The Power of AI in Business",
+    img: blog2,
+    title:
+      "Unlocking Business Potential with AI: Exploring VANTUS AI’s Data Analytics Services",
     description:
-      "Explore how artificial intelligence can drive innovation and growth in modern businesses.",
-  },
-  {
-    id: 3,
-    img: blogsdummy,
-    title: "UI/UX Design: Best Practices",
-    description:
-      "Learn the key principles behind creating intuitive and engaging user interfaces and experiences.",
+      "Learn how VANTUS AI's data analytics services leverage AI-driven insights to help businesses make smarter decisions and achieve sustainable growth.",
+    link: "https://vantusai.blogspot.com/2024/11/unlocking-business-potential-with-ai.html",
   },
 ];
 
@@ -45,11 +44,16 @@ const BlogsPage = () => {
                 className="w-full h-48 object-cover"
               />
               <div className="p-4">
-                <h2 className="text-xl font-semibold mb-2">{blog.title}</h2>
+                <h2 className="text-xl font-semibold text-black mb-2">
+                  {blog.title}
+                </h2>
                 <p className="text-gray-700 mb-4">{blog.description}</p>
-                <button className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors">
+                <Link
+                  to={blog.link}
+                  className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors"
+                >
                   Read More
-                </button>
+                </Link>
               </div>
             </div>
           ))}

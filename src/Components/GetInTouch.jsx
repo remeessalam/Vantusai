@@ -22,9 +22,8 @@ const GetInTouch = () => {
             </span>
           </h1>
           <p className="description text-center lg:text-start">
-            Schedule your <strong>FREE</strong>, 30-minutes strategy session
-            <br />
-            with our founder, Gaurav Singh.
+            Reach out to discover how our tech solutions can propel your
+            business forward.
           </p>
           {/* <Link
             to={"https://calendly.com/gauravssingh18/30min"}
@@ -95,7 +94,7 @@ export const InquiryForm = () => {
     // Construct the request payload
     var payload = {
       to: clientDetails.email,
-      name: "Elixirai",
+      name: "Vantus AI Solutions LLP",
       subject: values.subject,
       body: emailBody,
     };
