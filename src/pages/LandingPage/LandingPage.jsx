@@ -122,7 +122,7 @@ export const LandingPage = ({ page }) => {
             className="pt-[3rem] wrapper flex items-center h-full"
           >
             <div className="relative z-40 px-6 justify-center h-full flex flex-col items-center gap-5 text-center md:max-w-[60rem] mx-auto">
-              <div className="rounded-text-box border-white/70 font-medium text-black">
+              <div className="rounded-text-box border-white/70 font-medium text-white">
                 {isWebDevelopment ? "Web Development" : "App Development"}
               </div>
               {/* <h1 className="heading-1 text-white">
@@ -133,18 +133,18 @@ export const LandingPage = ({ page }) => {
                 : ""}
             </h1> */}
               {isWebDevelopment ? (
-                <h1 className="main-heading !text-black leading-tight">
+                <h1 className="main-heading !text-white leading-tight">
                   Building Websites That Leverage
                   <span className="text-primary"> AI </span>
                   to Define Your Brand&apos;s Digital Presence
                 </h1>
               ) : (
-                <h1 className="heading text-black leading-tight">
+                <h1 className="heading text-white leading-tight">
                   Harnessing <span className="text-primary"> AI </span> to
                   Transform Your Ideas into Engaging Mobile Experiences
                 </h1>
               )}
-              <p className="text-black desc font-medium">
+              <p className="text-white desc font-medium">
                 We specialize in crafting innovative IT solutions designed to
                 meet the unique demands of today’s dynamic businesses.
               </p>

@@ -36,7 +36,7 @@ const HomepageBanner = () => {
       <div className="relative grid md:grid-cols-1 gap-5 items-center wrapper w-full">
         <div className="text-center flex flex-col items-center sm:text-left">
           <div className="text-center">
-            <h1 data-aos="fade-up" className="main-heading !text-black">
+            <h1 data-aos="fade-up" className="main-heading ">
               {" "}
               Welcome to
               <br /> Vantus AI Solutions LLP
@@ -53,10 +53,7 @@ const HomepageBanner = () => {
             <br />
           </div>
 
-          <p
-            data-aos="fade-up"
-            className="text-lg sm:text-xl text-black mb-8 max-w-3xl"
-          >
+          <p data-aos="fade-up" className="text-lg sm:text-xl  mb-8 max-w-3xl">
             Where Innovation Meets Intelligence!
           </p>
           <Link
