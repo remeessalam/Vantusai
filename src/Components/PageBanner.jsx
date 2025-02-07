@@ -21,11 +21,12 @@ const PageBanner = ({ title }) => {
               style: {
                 objectFit: "cover",
                 width: "100vw",
+                height: "100%",
               },
             },
           },
         }}
-        className="absolute top-0 left-0 w-full h-full !object-cover"
+        className="absolute top-0 left-0 w-full min-h-[45vh] md:min-h-[70vh] max-h-[70vh]  !object-cover"
       />
       <div className="absolute z-20 py-2 top-[40%] left-1/2 -translate-x-1/2 w-full flex flex-col items-center px-3">
         <h1 data-aos="fade-up" className="heading text-black text-center">
