@@ -2,7 +2,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "keen-slider/keen-slider.min.css";
 import { useState } from "react";
-import video from "../../assets/video/homeBanner.mp4";
+import video from "../../assets/video/HomeBanner.mp4";
 // import { useForm } from "react-hook-form";
 // import { useNavigate } from "react-router-dom";
 // import { clientDetails } from "../../contant";
