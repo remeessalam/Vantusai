@@ -5,6 +5,8 @@
 @tailwind utilities;
 * {
   font-family: "Montserrat", serif;
+  overflow-x: hidden;
+  max-width: 100vw;
 }
 body {
   overflow-x: hidden;
@@ -16,6 +18,15 @@ body {
   );
   color: white;
 }
+/* ::-webkit-scrollbar {
+  scroll-behavior: smooth;
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary;
+  border-radius: 8px;
+} */
 
 @layer utilities {
   .wrapper {
