@@ -19,7 +19,7 @@ const ServicePageLayout = () => {
   });
   const { pathname } = useLocation();
   return (
-    <>
+    <div className="max-w-screen overflow-x-hidden">
       <Header />
       <ServiceDetailsBanner />
       <WhatsAppIcon />
@@ -125,7 +125,7 @@ const ServicePageLayout = () => {
       </div>
       <GetInTouch />
       <Footer />
-    </>
+    </div>
   );
 };
 
