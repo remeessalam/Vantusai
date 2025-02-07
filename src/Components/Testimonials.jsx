@@ -70,7 +70,7 @@ const Testimonials = () => {
             What Our Clients Say
           </h1>
         </div>
-        <div data-aos="fade-left" ref={sliderRef} className="keen-slider">
+        <div ref={sliderRef} className="keen-slider">
           {testimonials.map(({ id, title, name, description }) => (
             <div key={id} className="keen-slider__slide">
               <div className="flex flex-col items-center bg-white p-5 mx-2 rounded-xl h-full">

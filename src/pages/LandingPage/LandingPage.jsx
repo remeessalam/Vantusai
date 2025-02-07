@@ -34,52 +34,8 @@ export const LandingPage = ({ page }) => {
   // eslint-disable-next-line
   const [spinner, setSpinner] = useState(false);
 
-  //   const {
-  //     register,
-  //     handleSubmit,
-  //     formState: { errors },
-  //     reset,
-  //   } = useForm();
-  //   const navigate = useNavigate();
-
-  //   const onSubmit = async (data) => {
-  //     console.log(data);
-  //     setSpinner(true);
-
-  //     var emailBody = "Name: " + data.fullName + "\n\n";
-  //     emailBody += "Email: " + data.email + "\n\n";
-  //     emailBody += "Phone: " + data.mobileNumber + "\n\n";
-  //     // emailBody += "Subject: " + data.subject + "\n\n";
-  //     emailBody += "Message:\n" + data.message;
-
-  //     // Construct the request payload
-  //     var payload = {
-  //       to: clientDetails.email,
-  //       // to: "remeesreme4u@gmail.com",
-  //       subject: "You have a new message from SOFTINTURN",
-  //       body: emailBody,
-  //     };
-
-  //     await fetch("https://smtp-api-tawny.vercel.app/send-email", {
-  //       method: "POST",
-  //       headers: {
-  //         "Content-Type": "application/json",
-  //       },
-  //       body: JSON.stringify(payload),
-  //     })
-  //       .then((response) => response.json())
-  //       .then(() => {
-  //         toast.success("Email sent successfully");
-  //         reset();
-  //         navigate("/thank-you");
-  //       })
-  //       .catch((error) => {
-  //         toast.error(error.message);
-  //       })
-  //       .finally(() => setSpinner(false));
-  //   };
   return (
-    <>
+    <div className="max-w-screen overflow-x-hidden">
       <LandingHeader />
       <>
         <div
@@ -389,6 +345,6 @@ export const LandingPage = ({ page }) => {
         </div>
       </>
       <Footer />
-    </>
+    </div>
   );
 };
