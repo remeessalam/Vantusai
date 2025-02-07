@@ -2,7 +2,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { Link, useLocation } from "react-router-dom";
 import { allServices } from "../contant";
 import ReactPlayer from "react-player";
-import vid from "../assets/video/banner.mp4";
+import vid from "../assets/video/Banner.mp4";
 const ServiceDetailsBanner = () => {
   const { pathname } = useLocation();
   const title = allServices.find((item) => item.link === pathname)?.title;
