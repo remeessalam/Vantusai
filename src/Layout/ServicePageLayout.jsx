@@ -1,3 +1,5 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -11,6 +13,10 @@ import ScrollToTop from "../Components/ScrollToTop";
 import WhatsAppIcon from "../Components/WhatAppIcon";
 
 const ServicePageLayout = () => {
+  AOS.init({
+    once: true,
+    duration: 1000,
+  });
   const { pathname } = useLocation();
   return (
     <>
