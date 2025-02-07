@@ -1,5 +1,5 @@
 import ReactPlayer from "react-player";
-import vid from "../assets/video/banner.mp4";
+import vid from "../assets/video/Banner.mp4";
 import { Link } from "react-router-dom";
 import { IoIosArrowForward } from "react-icons/io";
 
