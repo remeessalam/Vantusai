@@ -1,5 +1,5 @@
 import ReactPlayer from "react-player";
-import video from "../../assets/video/homeBanner.mp4";
+import video from "../../assets/video/HomeBanner.mp4";
 import RequirementForm from "../../Components/RequirementForm";
 import { Link } from "react-router-dom";
 const HomepageBanner = () => {
