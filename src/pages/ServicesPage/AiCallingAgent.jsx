@@ -2,7 +2,6 @@ import img1 from "../../assets/services-details/aicalling1.jpg";
 import img2 from "../../assets/services-details/aicalling2.jpg";
 
 const AiCallingAgent = () => {
-  console.log("refresh");
   const aiCallingServices = [
     {
       title: "AI-Powered Outbound Calling",
