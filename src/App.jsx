@@ -11,6 +11,8 @@ import ChatbotDevelopment from "./pages/ServicesPage/ChatbotDevelopment";
 import DataAnalytics from "./pages/ServicesPage/DataAnalytics";
 import BlockchainDevelopment from "./pages/ServicesPage/BlockchainDevelopment";
 import VrArDevelopment from "./pages/ServicesPage/VrArDevelopment";
+import WhatsAppIcon from "./Components/WhatAppIcon";
+import AiCallingAgent from "./pages/ServicesPage/AiCallingAgent";
 
 const HomePage = lazy(() => import("./pages/HomePage"));
 const AboutusPage = lazy(() => import("./pages/AboutusPage"));
@@ -107,6 +109,10 @@ const AppRouter = createBrowserRouter([
         path: "vr-ar-development",
         element: <VrArDevelopment />,
       },
+      {
+        path: "ai-calling-agent",
+        element: <AiCallingAgent />,
+      },
     ],
   },
   {
@@ -123,6 +129,8 @@ const AppRouter = createBrowserRouter([
             },
           }}
         />
+        <WhatsAppIcon />
+
         <LandingPage page={"web-development"} />
       </>
     ),
@@ -141,6 +149,8 @@ const AppRouter = createBrowserRouter([
             },
           }}
         />
+        <WhatsAppIcon />
+
         <LandingPage page={"app-development"} />
       </>
     ),

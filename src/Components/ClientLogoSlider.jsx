@@ -54,13 +54,13 @@ const ClientsLogoSlider = ({ hide }) => {
   return (
     <div
       data-aos="fade-up"
-      className="flex flex-col gap-2 paddingtop paddingbottom  "
+      className="flex flex-col gap-2 paddingtop paddingbottom"
     >
       {hide ? (
         <h1 className="main-heading text-center">Trusted by Clients</h1>
       ) : (
-        <h1 data-aos-offset="-200" className="main-heading text-center">
-          Join Our <span className="text-black">50+</span> Happy Customers
+        <h1 data-aos-offset="-200" className="main-heading text-center mt-7">
+          Join Our <span className="text-white">50+</span> Happy Customers
         </h1>
       )}
       <div ref={sliderRef} className="keen-slider mt-4">

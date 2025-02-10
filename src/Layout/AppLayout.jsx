@@ -6,6 +6,8 @@ import "keen-slider/keen-slider.min.css";
 import Footer from "./Footer";
 import ScrollToTop from "../Components/ScrollToTop";
 import WhatsAppIcon from "../Components/WhatAppIcon";
+import ReactPlayer from "react-player";
+import video from "../assets/video/Homebanner.mp4";
 // import TawkMessengerReact from "@tawk.to/tawk-messenger-react";
 
 const AppLayout = () => {

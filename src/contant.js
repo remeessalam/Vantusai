@@ -60,11 +60,13 @@ import chatbot from "./assets/service-icons/chatbot.jpg";
 import data from "./assets/service-icons/data.jpg";
 import block from "./assets/service-icons/block.jpg";
 import arvr from "./assets/service-icons/arvr.jpg";
+import aiCalling from "./assets/service-icons/aiCalling.jpg";
 export const clientDetails = {
-  phone: "+91-8591331353",
+  phone: "+91-9354464633",
   whatsappbox: "8591331353",
   email: "support@Vantus AI Solutions LLP.co",
-  address: "Malad West, Mumbai, Maharashtra – 400095, India",
+  address: "U-128, Shakarpur, First Floor, Delhi-92",
+  instargram: "https://www.instagram.com/vantusaisolution/",
 };
 
 export const navItems = [
@@ -380,6 +382,49 @@ export const allServices = [
         heading: "Cross-Platform AR/VR Applications",
         description:
           "Our AR and VR apps are developed for multiple platforms, including mobile, web, and dedicated VR headsets.",
+      },
+    ],
+  },
+  {
+    id: 8,
+    img: aiCalling, // Ensure you've imported this image from your assets
+    title: "AI Calling Agent",
+    link: "/services/ai-calling-agent",
+    description: [
+      "We are a cutting-edge AI Calling Agency dedicated to transforming how businesses connect with their customers.",
+      "With advanced AI-driven technology and a focus on exceptional customer experiences, we offer tailored solutions to help businesses achieve their goals effortlessly.",
+      "Empowering growth by automating repetitive calling tasks while ensuring meaningful and personalized customer interactions.",
+    ],
+    services: [
+      {
+        heading: "AI-Powered Outbound Calling",
+        description:
+          "Take your outreach to the next level with our advanced AI-powered outbound calling services. We ensure that every call delivers value, fostering meaningful connections with your audience.",
+      },
+      {
+        heading: "Inbound Call Management",
+        description:
+          "Make every inbound call count with our seamless, AI-enabled call management system. We ensure that no customer inquiry is left unanswered, giving your business a reputation for reliability and care.",
+      },
+      {
+        heading: "Appointment Scheduling & Reminders",
+        description:
+          "Simplify your scheduling process while keeping your customers happy with our AI-powered appointment management solutions.",
+      },
+      {
+        heading: "Survey & Feedback Collection",
+        description:
+          "Understand what matters most to your customers by gathering their feedback with ease. Our AI-powered solutions ensure you get valuable insights without overwhelming your clients.",
+      },
+      {
+        heading: "Customer Retention Campaigns",
+        description:
+          "Keep your customers engaged and loyal with personalized, AI-driven retention campaigns. Strengthen relationships and reduce churn with proactive strategies.",
+      },
+      {
+        heading: "Real-Time Analytics & Reporting",
+        description:
+          "Gain actionable insights from every call with our real-time analytics, helping you optimize performance and customer satisfaction.",
       },
     ],
   },

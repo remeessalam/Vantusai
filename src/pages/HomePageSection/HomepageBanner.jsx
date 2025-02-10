@@ -30,7 +30,7 @@ const HomepageBanner = () => {
           }}
         />
       </div>
-      {/* <div className="absolute inset-0 bg-black/30" /> */}
+      <div className="absolute inset-0 bg-black/30" />
 
       {/* Hero content */}
       <div className="relative grid md:grid-cols-1 gap-5 items-center wrapper w-full">

@@ -99,7 +99,7 @@ const Testimonials = () => {
           ))}
         </div>
       </div>
-      <div className="bg-white">
+      {/* <div className="bg-white">
         <section className="wrapper">
           <div className="max-w-7xl mx-auto grid md:grid-cols-[15%_auto] items-center gap-7 paddingtop paddingbottom">
             <div
@@ -138,7 +138,7 @@ const Testimonials = () => {
             </div>
           </div>
         </section>
-      </div>
+      </div> */}
     </>
   );
 };

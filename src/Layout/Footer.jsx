@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { FaLinkedinIn } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { GrFacebookOption } from "react-icons/gr";
-import { allServices } from "../contant";
+import { allServices, clientDetails } from "../contant";
 import logo from "../assets/logo/logo.png";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -32,7 +32,7 @@ const Footer = () => {
             <Link>
               <FaLinkedinIn className="text-2xl" />
             </Link>
-            <Link>
+            <Link to={clientDetails.instargram}>
               <AiFillInstagram className="text-2xl" />
             </Link>
             <Link>
