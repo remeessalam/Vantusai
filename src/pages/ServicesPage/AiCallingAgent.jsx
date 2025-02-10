@@ -1,5 +1,5 @@
-import img1 from "../../assets/services-details/aicalling1.jpg";
-import img2 from "../../assets/services-details/aicalling2.jpg";
+import img1 from "../../assets/services-details/aicall1.jpg";
+import img2 from "../../assets/services-details/aicall2.jpg";
 
 const AiCallingAgent = () => {
   const aiCallingServices = [
