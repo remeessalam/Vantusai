@@ -7,7 +7,7 @@ const WhatsAppIcon = () => {
     <Link
       className="fixed group bottom-[2.5rem] p-1 hover:-translate-y-1 z-30 border bg-green-500 border-white-500  rounded-full right-[1.5rem] transition-all duration-200"
       // to={`https://wa.me/${clientDetails.whatsappbox}`}
-      to={`https://api.whatsapp.com/send/?phone=%2B918591331353&text&type=phone_number&app_absent=0`}
+      to={`https://api.whatsapp.com/send/?phone=%2B919354464633&text&type=phone_number&app_absent=0`}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Contact us on WhatsApp"

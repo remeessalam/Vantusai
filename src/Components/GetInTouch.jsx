@@ -142,7 +142,7 @@ export const InquiryForm = () => {
               <label className="text-white">Name</label>
               <input
                 type="text"
-                className="w-full outline-none p-3 rounded-lg  "
+                className="w-full outline-none p-3 rounded-lg  text-black"
                 autoComplete="off"
                 placeholder="Enter your name"
                 {...register("name", {
@@ -162,7 +162,7 @@ export const InquiryForm = () => {
               <label className="text-white">Email</label>
               <input
                 type="email"
-                className="w-full outline-none p-3 rounded-lg  "
+                className="w-full outline-none p-3 rounded-lg  text-black"
                 autoComplete="off"
                 placeholder="Enter your email"
                 {...register("email", {
@@ -182,7 +182,7 @@ export const InquiryForm = () => {
               <label className="text-white">Subject</label>
               <input
                 type="text"
-                className="w-full outline-none p-3 rounded-lg  "
+                className="w-full outline-none p-3 rounded-lg  text-black"
                 placeholder="Enter subject"
                 {...register("subject", {
                   required: "Subject is required",
@@ -201,7 +201,7 @@ export const InquiryForm = () => {
               <label className="text-white">Phone Number</label>
               <input
                 type="tel"
-                className="w-full outline-none p-3 rounded-lg  "
+                className="w-full outline-none p-3 rounded-lg  text-black"
                 autoComplete="off"
                 placeholder="Enter your phone number"
                 {...register("phone", {
@@ -219,7 +219,7 @@ export const InquiryForm = () => {
             <label className="text-white">Service You Are Interested In</label>
             <div
               onClick={() => setDropdownOpen(!dropdownOpen)}
-              className="p-3 bg-white rounded-lg cursor-default flex justify-between items-center"
+              className="p-3 bg-white text-black rounded-lg cursor-default flex justify-between items-center"
             >
               {selectedService}
               <BiCaretRight
@@ -256,7 +256,7 @@ export const InquiryForm = () => {
               type="text"
               rows="4"
               placeholder="Enter your message here"
-              className="w-full outline-none p-3 rounded-lg  "
+              className="w-full outline-none p-3 rounded-lg  text-black"
               autoComplete="off"
               {...register("message", {
                 required: "Message is required",

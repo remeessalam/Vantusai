@@ -17,8 +17,8 @@ const SinglePortfolio = ({ porfolio, portfoliofor }) => {
           <Link
             data-aos="fade-up"
             key={item.id}
-            className="bg-white rounded-lg hover:scale-105 transition-all duration-300  shadow-lg overflow-hidden"
-            to={item.link}
+            className="bg-white cursor-default rounded-lg hover:scale-105 transition-all duration-300  shadow-lg overflow-hidden"
+            // to={item.link}
           >
             <img
               src={item.img}

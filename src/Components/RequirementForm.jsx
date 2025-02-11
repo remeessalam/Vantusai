@@ -93,7 +93,7 @@ const RequirementForm = () => {
             id="name"
             {...register("name", { required: "Name is required" })}
             onBlur={() => trigger("name")}
-            className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="p-2 border text-black border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           {errors.name && (
             <span className="text-red-500 text-sm mt-1">
@@ -120,7 +120,7 @@ const RequirementForm = () => {
                 message: "Invalid email address",
               },
             })}
-            className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="p-2 border text-black border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             onBlur={() => trigger("email")} // Ensure validation triggers on blur
           />
           {errors.email && (
@@ -153,7 +153,7 @@ const RequirementForm = () => {
                 "Phone number must be 10 or 12 digits long",
             })}
             onBlur={() => trigger("phone")}
-            className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="p-2 border text-black border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           {errors.phone && (
             <span className="text-red-500 text-sm mt-1">
@@ -174,13 +174,21 @@ const RequirementForm = () => {
             id="service"
             {...register("service", { required: "Service is required" })}
             onBlur={() => trigger("service")}
-            className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="p-2 border text-black border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
             <option value="">Select a service</option>
             <option value="web-development">Web Development</option>
-            <option value="mobile-development">Mobile Development</option>
-            <option value="ai-ml">AI & ML</option>
-            <option value="consulting">Consulting</option>
+            <option value="mobile-app-development">
+              Mobile App Development
+            </option>
+            <option value="game-development">Game Development</option>
+            <option value="chatbots">Chatbots</option>
+            <option value="data-analytics">Data Analytics</option>
+            <option value="blockchain-development">
+              Blockchain Development
+            </option>
+            <option value="vr-ar">VR AR</option>
+            <option value="ai-calling-agent">AI Calling Agent</option>
           </select>
           {errors.service && (
             <span className="text-red-500 text-sm mt-1">
@@ -201,7 +209,7 @@ const RequirementForm = () => {
             id="budget"
             {...register("budget", { required: "Budget is required" })}
             onBlur={() => trigger("budget")}
-            className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="p-2 border text-black border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
             <option value="">Select a budget</option>
             <option value="500-1000">$500 - $1000</option>
@@ -228,7 +236,7 @@ const RequirementForm = () => {
             id="message"
             {...register("message", { required: "Message is required" })}
             onBlur={() => trigger("message")}
-            className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="p-2 border text-black border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             rows="3"
           />
           {errors.message && (
