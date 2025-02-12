@@ -93,8 +93,8 @@ export const InquiryForm = () => {
 
     // Construct the request payload
     var payload = {
-      // to: clientDetails.email,
-      to: "remeesreme4u@gmail.com",
+      to: clientDetails.email,
+      // to: "remeesreme4u@gmail.com",
       name: "Vantus AI Solutions LLP",
       subject: values.subject,
       body: emailBody,
